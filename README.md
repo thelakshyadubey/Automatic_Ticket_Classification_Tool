@@ -1,6 +1,6 @@
 # Automatic Ticket Classification Tool
 
-🎫 **An AI-powered Streamlit app for automatic classification and management of support tickets using Pinecone vector database, GROQ's LLaMA-3 model, and SVM classification.**
+**An AI-powered Streamlit app for automatic classification and management of support tickets using Pinecone vector database, GROQ's LLaMA-3 model, and SVM classification.**
 
 ---
 
