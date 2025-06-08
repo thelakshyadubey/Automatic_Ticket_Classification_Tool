@@ -80,12 +80,12 @@ GROQ_API_KEY=your_groq_api_key
 ```
 
 ## How It Works
-Data ingestion: PDFs are read and split into text chunks, which are embedded using SentenceTransformers and stored in Pinecone.
-User query: When a user submits a query, the app retrieves semantically similar documents from Pinecone.
-Answer generation: GROQ's LLaMA-3 model answers the query based on the retrieved documents.
-Ticket classification: User queries are embedded and classified via a trained SVM to determine the responsible department.
-Ticket management: Tickets are stored in Streamlit session state and displayed under respective department tabs.
-Model lifecycle: Admin interface allows loading CSV data, training the SVM model, evaluating accuracy, and saving/loading the model for future use.
+-Data ingestion: PDFs are read and split into text chunks, which are embedded using SentenceTransformers and stored in Pinecone.
+-User query: When a user submits a query, the app retrieves semantically similar documents from Pinecone.
+-Answer generation: GROQ's LLaMA-3 model answers the query based on the retrieved documents.
+-Ticket classification: User queries are embedded and classified via a trained SVM to determine the responsible department.
+-Ticket management: Tickets are stored in Streamlit session state and displayed under respective department tabs.
+-Model lifecycle: Admin interface allows loading CSV data, training the SVM model, evaluating accuracy, and saving/loading the model for future use.
 
 ## Author
 Lakshya Dubey
