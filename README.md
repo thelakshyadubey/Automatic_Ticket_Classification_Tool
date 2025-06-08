@@ -27,12 +27,14 @@ This project is a scalable and modular ticket classification system designed to 
 - Classification using **Support Vector Machines (SVM)**
 - A clean **Streamlit** UI with custom CSS styling for seamless user experience
 
-The system enables:
+Use the interface to:
 
-- Upload and embedding of PDF documents into Pinecone for knowledge retrieval  
-- Interactive user queries for relevant information and ticket creation  
-- Department-wise ticket classification and management  
-- Model training, evaluation, and saving for continuous improvement  
+- Enter queries and get answers based on uploaded document knowledge
+- Raise tickets automatically classified into departments
+- Navigate tabs to view pending tickets
+- Upload your own PDFs and CSVs to train or update the classification model
+- Save the trained model and reload it later for continued use
+- Upload PDFs to build or update the Pinecone vector store
 
 ---
 
@@ -44,7 +46,10 @@ The system enables:
 - **Ticket classification:** Classify user input into HR, IT, or Transport using SVM  
 - **Custom UI:** Interactive Streamlit app with session management and CSS styling  
 - **Model lifecycle:** Train, evaluate, save, and load classification models  
-- **Departmental ticket views:** Separate tabs to view pending tickets per department  
+- **Departmental ticket views:** Separate tabs to view pending tickets per department
+- **User uploads:** You can add your own PDFs and CSV files to train the model, save it, and re-upload for later use  
+
+---
 
 ---
 
