@@ -70,12 +70,14 @@ git clone https://github.com/thelakshyadubey/Automatic_Ticket_Classification_Too
 cd yourrepo
 ```
 2. Install dependencies:
+```bash
 pip install -r requirements.txt
-
-3. Setup environment variables in a .env file:
+```
+4. Setup environment variables in a .env file:
+```bash
 PINECONE_API_KEY=your_pinecone_api_key
 GROQ_API_KEY=your_groq_api_key
-
+```
 
 ## How It Works
 Data ingestion: PDFs are read and split into text chunks, which are embedded using SentenceTransformers and stored in Pinecone.
