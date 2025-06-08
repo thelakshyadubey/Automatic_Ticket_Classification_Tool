@@ -3,7 +3,7 @@
 **An AI-powered Streamlit app for automatic classification and management of support tickets using Pinecone vector database, GROQ's LLaMA-3 model, and SVM classification.**
 
 ---
-
+## Project Deployed on Render: [https://customer-care-call-summary-alert.onrender.com](https://automatic-ticket-classification-tool.onrender.com)
 ## Table of Contents
 
 - [Project Overview](#project-overview)  
