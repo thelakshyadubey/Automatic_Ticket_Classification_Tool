@@ -1,6 +1,6 @@
 from pinecone import Pinecone as PineconeClient
 from langchain_community.vectorstores import Pinecone
-from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddings
+from langchain_community.embeddings import SentenceTransformerEmbeddings
 from langchain_groq import ChatGroq  # ✅ Replaced OpenAI
 from langchain.chains.question_answering import load_qa_chain
 from css_utils import inject_custom_css

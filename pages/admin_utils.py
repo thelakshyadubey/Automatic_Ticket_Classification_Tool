@@ -1,7 +1,7 @@
 from pypdf import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import OpenAIEmbeddings  # Not used anymore, but kept for fallback
-from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddings
+from langchain_community.embeddings import SentenceTransformerEmbeddings
 from langchain_groq import ChatGroq  # ✅ Replaced OpenAI
 from pinecone import Pinecone as PineconeClient
 from langchain_community.vectorstores import Pinecone
