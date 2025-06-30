@@ -19,7 +19,7 @@
 
 ## Project Overview
 
-This project is a scalable and modular ticket classification system designed to automate support ticket routing across departments like HR, IT, and Transport. It leverages:
+This project is a scalable and modular ticket classification system designed to automate the support ticket routing across departments like HR, IT, and Transport. It leverages:
 
 - Semantic similarity search using **Pinecone** vector database
 - Contextual question answering powered by **GROQ's LLaMA-3**
